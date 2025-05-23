@@ -1,6 +1,5 @@
 const swaggerAutogen = require('swagger-autogen')();
 
-
 const doc = {
     info: {
         title: 'Users Api',
@@ -9,7 +8,6 @@ const doc = {
     host: 'localhost: 8080',
     schemes: ['http','https']
 };
-
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 

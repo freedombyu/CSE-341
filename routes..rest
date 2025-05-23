@@ -27,7 +27,6 @@ content-type:application/json
   "ipaddress": "10.0.0.254"
 }
 
-
 ### DELETE contact
 DELETE http://localhost:8080/users/64a88df96956bs8
 
